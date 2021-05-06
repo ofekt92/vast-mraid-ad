@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="mraid.js"></script>
+    <script src="ad-vast.js"></script>
+
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <div
+      style="height: 100%; width: 100%;"
+      id="ad-container"
+    >
+
+      <video
+        playisinline
+        muted
+        autoplay
+        id="ad-video"
+        style="min-height: 100%; min-width: 100%"
+      >
+        <source type="video/mp4" id="ad-video-source" />
+      </video>
+      <img style="z-index: -1; display:block; visibility: 0; opacity: 0" id="ad-image" alt="ad-iamge" />
+    </div>
+  </body>
+</html>
